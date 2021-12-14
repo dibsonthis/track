@@ -1,0 +1,14 @@
+/*
+module error_check
+{
+	if in::state == 0: { next; }
+	else: { in >> out; }
+}
+
+"45" >> int >> error_check >> f;
+
+"123" >> [print; int >> print;]
+
+45 >> a;
+
+if [(a > 0): a >> print; (a < 0): a + 1 >> print; 0 >> print;]
